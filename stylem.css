@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    border: 6px solid white;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 11px;
+}
+.main-nav{ 
+    background-color: lightgray;
+    padding: 15px;
+    margin: -5px;
+    position:sticky;
+    top: 100px;
+    width: 100%;
+}
+.main-nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+.main-nav ul li{
+    list-style-type: none;
+}
+.main-nav ul li a{
+    text-decoration: none;
+}
+.main-nav ul li a:link{
+    color: black;
+}
+.main-nav ul li a:visited{
+    color:dodgerblue;
+}
+.main-nav ul li a:hover{
+    color:red;
+}
+main article{
+    width: 50%;
+    margin: auto;
+
+}
+article h2{
+    color:red;
+    font-size: 45px;
+    margin-top: 20px;
+}
+   
+article p span{
+    font-weight: bold;
+}
+article p::first-line{
+   color:blue;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    list-style-type: none;
+
+}
+
+.join{
+    background-color: lightgray;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+#email{
+    width: 200px;
+
+}
+#button{
+    width: 50px;
+   
+}
+
