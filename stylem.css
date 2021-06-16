@@ -47,6 +47,7 @@ header h1{
 }
 .main-nav ul li a:hover{
     color:red;
+    font-weight: bold;
 }
 main article{
     width: 50%;
@@ -84,14 +85,27 @@ footer{
     text-align: center;
     background-color: red;
     color: white;
+    padding: 20px;
 }
 
 #email{
     width: 200px;
+    padding: 3px;
 
 }
 #button{
     width: 50px;
-   
+    padding: 3px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+#button:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
